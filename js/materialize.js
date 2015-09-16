@@ -2346,9 +2346,9 @@ $(document).ready(function(){
 		    var offset = $(this.hash).offset().top + 1;
 
 //          offset - 200 allows elements near bottom of page to scroll
-			
+
 	    	$('html, body').animate({ scrollTop: offset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
-			
+
 		  });
 		});
 		options = options || {
@@ -2936,6 +2936,8 @@ $(document).ready(function(){
             caption.velocity({opacity: 0, translateX: -100}, {duration: duration, queue: false});
           }
         }
+
+
 
         // This function will transition the slide to any index of the next slide
         function moveToSlide(index) {
